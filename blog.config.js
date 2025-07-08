@@ -24,6 +24,7 @@ const BLOG = {
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'zminjoe@gmail.com',
+  CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || '',
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
 
